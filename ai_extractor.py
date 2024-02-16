@@ -1,13 +1,13 @@
 import os
 
-from dotenv import load_dotenv
+
 from langchain.chains import (create_extraction_chain,
                               create_extraction_chain_pydantic)
 from langchain.chat_models import ChatOpenAI
 
-load_dotenv()
 
-openai_api_key = os.getenv('OPENAI_API_KEY')
+
+openai_api_key= "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"
 
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-0613",
                  openai_api_key=openai_api_key)

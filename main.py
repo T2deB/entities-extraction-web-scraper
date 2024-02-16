@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     # News sites mostly have <span> tags to scrape
     cnn_url = "https://www.cnn.com"
-    wsj_url = "https://www.wsj.com"
+    wsj_url = "https://www.nifu.no/"
     nyt_url = "https://www.nytimes.com/ca/"
 
     amazon_url = "https://www.amazon.ca/s?k=computers&crid=1LUXGQOD2ULFD&sprefix=%2Caps%2C94&ref=nb_sb_ss_recent_1_0_recent"
